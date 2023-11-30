@@ -28,7 +28,7 @@ void fw(int spl, int spr, int _time, String offset)
       {  
         while(1)      
            {    
-              Motor(20, 20, 20, 20);        
+              Motor(30, 20, 30, 20);        
               if(mcp_f(0) < md_mcp_f(0)-100 && mcp_f(3) > md_mcp_f(3))
                   {
                     Motor(40, -10, 40, -10);
